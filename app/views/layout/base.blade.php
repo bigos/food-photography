@@ -8,6 +8,8 @@
 @show
 </head>
 <body>
+    @include('navbar')
+
 @yield('body')
 </body>
 </html>

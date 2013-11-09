@@ -1,1 +1,5 @@
-        @include('navbar')
+@extends('layout.base')
+@section('body')
+    
+work
+@stop
