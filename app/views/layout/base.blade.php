@@ -8,7 +8,7 @@
 @show
 </head>
 <body>
-    @include('navbar')
+    @include('layout.navbar')
 
 @yield('body')
 </body>
