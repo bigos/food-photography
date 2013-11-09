@@ -15,3 +15,20 @@ Route::get('/', function()
 {
 	return View::make('home');
 });
+
+
+Route::get('/about', function()
+{
+	return View::make('about');
+});
+
+Route::get('/work', function()
+{
+	return View::make('work');
+});
+
+
+Route::get('/contact', function()
+{
+	return View::make('contact');
+});
