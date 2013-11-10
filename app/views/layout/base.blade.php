@@ -17,6 +17,10 @@
 
   @yield('body')
 
+  <div class="phone">phone</div>
+  <div class="tablet">tablet</div>
+  <div class="desktop">desktop</div>
+
   @include('layout.modernizr')
 </body>
 </html>

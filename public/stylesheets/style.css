@@ -25,10 +25,24 @@ p {
   color:#555;
 }
 
-@media only screen and (min-width: 380px) {
 
+
+.phone, .tablet, .desktop{
+  background:red;
 }
 
-@media only screen and (max-width: 380px) {
-
+@media only screen and (max-width: 479px) {
+.phone{background:blue;}
 }
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.tablet{background:blue;}
+}
+
+@media only screen and (min-width: 768px) {
+.desktop{background:blue;}
+}
+
+
+
+
