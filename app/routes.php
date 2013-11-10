@@ -22,9 +22,9 @@ Route::get('/about', function()
 	return View::make('about');
 });
 
-Route::get('/work', function()
+Route::get('/gallery', function()
 {
-	return View::make('work');
+	return View::make('gallery');
 });
 
 

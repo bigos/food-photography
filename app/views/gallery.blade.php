@@ -1,5 +1,5 @@
 @extends('layout.base')
 @section('body')
-    
-work
+
+gallery
 @stop
