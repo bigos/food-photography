@@ -13,13 +13,26 @@
   @show
 </head>
 <body>
-  @include('layout.navbar')
+  <header>
+    <div id="logo">
+      Chris Beard Food Photography
+    </div>
+    @include('layout.navbar')
+  </header>
+  <div class="horizontal-bar"></div>
 
   @yield('body')
 
-  <div class="phone">phone</div>
-  <div class="tablet">tablet</div>
-  <div class="desktop">desktop</div>
+  <div class="respdemo">
+    <div class="phone">phone</div>
+    <div class="tablet">tablet</div>
+    <div class="desktop">desktop</div>
+  </div>
+
+  <div class="horizontal-bar"></div>
+  <footer>
+    &copy; Chris Beard 2013
+  </footer>
 
   @include('layout.modernizr')
 </body>
