@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="/stylesheets/style.css">
   <!-- query external stylesheet -->
   <link rel="stylesheet" media="screen and (min-width:320px) and (max-width:480px)" href="/stylesheets/mobile.css" >
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+  <script src="/javascripts/app.js"></script>
   <script src="/javascripts/modernizr-full.js"></script>
   @show
 </head>
