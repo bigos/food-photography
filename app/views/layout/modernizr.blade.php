@@ -14,4 +14,6 @@
 	    load: 'needs-jQuery.js'
 	}
     ]);
+
+    alert( $("html").attr('class'));
 </script>
